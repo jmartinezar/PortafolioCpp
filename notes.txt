@@ -1,0 +1,35 @@
+//----------------------------------------------------------------------//
+
+Tree class
+
+The tree class contains all nodes in simulation.
+Contains 4 pointers that are the principal nodes.
+
+
+
+//----------------------------------------------------------------------//
+
+Node class
+
+The nodes of the tree are built as entities that can, in turn, storege other nodes.
+The node class meets the following requeriments.
+
+ -- The class node has one of two options:
+  |-Contains 1 pointer: occurs when the node contains 0 o 1 body.
+  |-Contains 4 pointers: occurs when the node contains more than 1 body.
+
+ - The class is inicialized with a single null pointer.
+
+ - Contain 2 values associated with the center of area that encloses the particle.
+
+ - Contains 2 values associated with size of area that encloses the particle (width, height).
+ 
+ - Inicialized values.
+
+ - Calcules the number of particles it houses. 
+
+ - If number particles is greater than 1, the node is divided into 4.
+
+ - In this case, the node contains within itself 4 nodes.
+
+//----------------------------------------------------------------------//
