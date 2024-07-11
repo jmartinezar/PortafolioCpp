@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <vector>
-#include "tree.h"
+#include "tree.hpp"
 
 std::vector<double> AddVector(std::vector<double> v1, std::vector<double> v2);
 

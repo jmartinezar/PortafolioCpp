@@ -1,7 +1,7 @@
 #include <vector>
 #include <cmath>
-#include "node.h"
-#include "include.h"
+#include "node.hpp"
+#include "include.hpp"
 
 /*
 The initialization function take all values like 0.0 and pointer like nullptr

@@ -23,8 +23,6 @@ int main(void)
   integration(OctTree, ti, tf, dt, data_problem);
 
   animate_data(data_problem);
-
-  OctTree.~tree();
   
   return 0;
 }

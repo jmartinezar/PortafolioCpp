@@ -1,6 +1,6 @@
-#include "tree.h"
-#include "node.h"
-#include "include.h"
+#include "tree.hpp"
+#include "node.hpp"
+#include "include.hpp"
 #include <iostream>
 
 tree::tree(std::vector<std::vector<std::vector<double>>> inits)

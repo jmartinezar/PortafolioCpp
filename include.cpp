@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
-#include "include.h"
-#include "tree.h"
+#include "include.hpp"
+#include "tree.hpp"
 
 /*
  * La función range_adjust proporciona un valor para ajustar el tamaño del árbol según las partículas que se encuentran en su interior. 
